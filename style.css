@@ -81,16 +81,28 @@ html, body{
     font-weight: 600;
 }
 
+
+#nav h2:nth-last-child(3){
+    width: 33%;
+    /* background-color: red; */
+    text-align: end;
+}
+
 #nav h2:nth-last-child(2){
-    width: 29%;
+    width: 10%;
+    /* background-color: red; */
+    border-right: none;
+    text-align: end;
+    padding-left: 9%;
 }
 
 #nav h2:last-child{
     border-right: none;
-    width: 10%;
+    width: 0%;
     justify-content: flex-end;
     /* background-color: rebeccapurple; */
 }
+
 
 #nav h3{
     display: none;
